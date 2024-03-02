@@ -1,4 +1,4 @@
-package main.java.ch14;
+package main.java.ch14.ex01;
 
 public class ThreadNameExample {
 
