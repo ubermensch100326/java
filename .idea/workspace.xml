@@ -37,8 +37,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ContructorReferenceExample.executor": "Run",
+    "Application.FilterExample.executor": "Run",
     "Application.LambdaExample.executor": "Run",
     "Application.MethodReferenceExample.executor": "Run",
+    "Application.StreamExplanation.executor": "Run",
     "Application.StreamPipeLineExample.executor": "Run",
     "Application.main.java.ch16.ex03.LambdaExample (1).executor": "Run",
     "Application.main.java.ch16.ex03.LambdaExample.executor": "Run",
@@ -49,7 +51,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StreamPipeLineExample">
+  <component name="RunManager" selected="Application.FilterExample">
     <configuration name="ContructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ch16.ex05.ContructorReferenceExample" />
       <module name="java" />
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ch16.ex01.LambdaExample" />
+    <configuration name="FilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex03.FilterExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ch16.ex01.*" />
+          <option name="PATTERN" value="main.java.ch17.ex03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ch16.ex03.MethodReferenceExample" />
+    <configuration name="StreamExplanation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex03.StreamExplanation" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ch16.ex03.*" />
+          <option name="PATTERN" value="main.java.ch17.ex03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,10 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilterExample" />
+        <item itemvalue="Application.StreamExplanation" />
         <item itemvalue="Application.StreamPipeLineExample" />
         <item itemvalue="Application.ContructorReferenceExample" />
-        <item itemvalue="Application.main.java.ch16.ex02.LambdaExample" />
-        <item itemvalue="Application.MethodReferenceExample" />
         <item itemvalue="Application.main.java.ch16.ex02.LambdaExample" />
       </list>
     </recent_temporary>
