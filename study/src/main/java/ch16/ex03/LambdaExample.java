@@ -2,6 +2,9 @@ package main.java.ch16.ex03;
 
 public class LambdaExample {
 
+    public static void print(String message) {
+        System.out.println(message);
+    }
     public static void main(String[] args) {
         Person person = new Person();
 
@@ -22,5 +25,14 @@ public class LambdaExample {
         });
 
         person.action(message -> System.out.println(message + "라고 입력합니다."));
+
+        person.action(LambdaExample::print);
+
+        person.action(new Speakable() {
+            @Override
+            public void speak(String message) {
+                LambdaExample.print(message);
+            }
+        });
     }
 }
