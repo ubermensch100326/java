@@ -1,4 +1,4 @@
-package main.java.ch16.ex03;
+package main.java.ch16.ex02;
 
 @FunctionalInterface
 public interface Workable {

@@ -1,11 +1,16 @@
 package main.java.ch16.ex05;
 
-import main.java.ch16.ex05.Calculable;
-
 public class Person {
+    public Member getMember1(Creatable1 creatable1) {
+        String id = "winter";
+        Member member = creatable1.create(id);
+        return member;
+    }
 
-    public void action(Calculable calculable) {
-        double result = calculable.calculate(3.5, 5.3);
-        System.out.println("result: " + result);
+    public Member getMember2(Creatable2 creatable2) {
+        String id = "winter";
+        String name = "Kang";
+        Member member = creatable2.create(id, name);
+        return member;
     }
 }

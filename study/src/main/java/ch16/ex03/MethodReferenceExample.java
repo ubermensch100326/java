@@ -1,4 +1,4 @@
-package main.java.ch16.ex05;
+package main.java.ch16.ex03;
 
 public class MethodReferenceExample {
 

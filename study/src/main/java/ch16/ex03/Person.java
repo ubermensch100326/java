@@ -1,11 +1,9 @@
 package main.java.ch16.ex03;
 
 public class Person {
-    public void action(Workable workable) {
-        workable.work("홍길동", "프로그래밍");
-    }
 
-    public void action(Speakable speakable) {
-        speakable.speak("Hello, World!");
+    public void action(Calculable calculable) {
+        double result = calculable.calculate(3.5, 5.3);
+        System.out.println("result: " + result);
     }
 }
