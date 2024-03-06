@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,6 +40,7 @@
     "Application.FilterExample.executor": "Run",
     "Application.LambdaExample.executor": "Run",
     "Application.MethodReferenceExample.executor": "Run",
+    "Application.SortExample.executor": "Run",
     "Application.StreamExplanation.executor": "Run",
     "Application.StreamPipeLineExample.executor": "Run",
     "Application.main.java.ch16.ex03.LambdaExample (1).executor": "Run",
@@ -51,7 +52,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FilterExample">
+  <component name="RunManager" selected="Application.SortExample">
     <configuration name="ContructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ch16.ex05.ContructorReferenceExample" />
       <module name="java" />
@@ -71,6 +72,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.ch17.ex03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithm.sort.SortExample" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.java.ch16.ex02.LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ch16.ex02.LambdaExample" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.ch16.ex02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortExample" />
         <item itemvalue="Application.FilterExample" />
         <item itemvalue="Application.StreamExplanation" />
         <item itemvalue="Application.StreamPipeLineExample" />
         <item itemvalue="Application.ContructorReferenceExample" />
-        <item itemvalue="Application.main.java.ch16.ex02.LambdaExample" />
       </list>
     </recent_temporary>
   </component>
