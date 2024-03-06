@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d61300cd-f166-4f56-8f04-629af946fbad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/ch16/ex02/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/ch16/ex03/LambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/ch16/ex02/LambdaExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/ch16/ex03/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/ch16/ex03/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/ch16/ex03/Speakable.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/ch16/ex02/Speakable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/ch16/ex03/Workable.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/ch16/ex02/Workable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/ch16/ex05/Calculable.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/ch16/ex03/Calculable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/ch16/ex05/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/ch16/ex03/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/ch16/ex05/MethodReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/main/java/ch16/ex03/MethodReferenceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/main/java/ch16/ex05/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +39,7 @@
     "Application.ContructorReferenceExample.executor": "Run",
     "Application.LambdaExample.executor": "Run",
     "Application.MethodReferenceExample.executor": "Run",
+    "Application.StreamPipeLineExample.executor": "Run",
     "Application.main.java.ch16.ex03.LambdaExample (1).executor": "Run",
     "Application.main.java.ch16.ex03.LambdaExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -57,7 +49,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ContructorReferenceExample">
+  <component name="RunManager" selected="Application.StreamPipeLineExample">
     <configuration name="ContructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ch16.ex05.ContructorReferenceExample" />
       <module name="java" />
@@ -97,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamPipeLineExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex02.StreamPipeLineExample" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ch17.ex02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main.java.ch16.ex02.LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ch16.ex02.LambdaExample" />
       <module name="java" />
@@ -125,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamPipeLineExample" />
         <item itemvalue="Application.ContructorReferenceExample" />
         <item itemvalue="Application.main.java.ch16.ex02.LambdaExample" />
         <item itemvalue="Application.MethodReferenceExample" />
         <item itemvalue="Application.main.java.ch16.ex02.LambdaExample" />
-        <item itemvalue="Application.LambdaExample" />
       </list>
     </recent_temporary>
   </component>
