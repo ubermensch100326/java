@@ -3,7 +3,7 @@ package main.java.algorithm.sort;
 import java.util.List;
 
 @FunctionalInterface
-public interface Sort<T extends Comparable<? super T>> {
+public interface Sortable<T extends Comparable<? super T>> {
     List<T> sort(List<T> list);
 
     static <T> void swap(List<T> list, int i, int j) {

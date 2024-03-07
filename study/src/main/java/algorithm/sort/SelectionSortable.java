@@ -3,7 +3,7 @@ package main.java.algorithm.sort;
 import java.util.Comparator;
 import java.util.List;
 
-public class SelectionSort<T extends Comparable<? super T>> implements Sort<T> {
+public class SelectionSortable<T extends Comparable<? super T>> implements Sortable<T> {
 
     /*
      * 1번째부터 끝까지 훑어서 가장 작은 게 1번째
@@ -24,7 +24,7 @@ public class SelectionSort<T extends Comparable<? super T>> implements Sort<T> {
                 }
             }
             if (target != i) {
-                Sort.swap(list, i, target);
+                Sortable.swap(list, i, target);
             }
             System.out.println((i + 1) +  "번째 루프");
             System.out.println(list);

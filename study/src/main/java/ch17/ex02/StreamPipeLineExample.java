@@ -8,8 +8,8 @@ public class StreamPipeLineExample {
         // of를 이용하면 불변 리스트를 생성할 수 있음
         // asList도 비슷한데 조금 다름
         List<Student> list = List.of(
-            new Student("홍길동", 90),
-            new Student("신용권", 92)
+                new Student("홍길동", 90),
+                new Student("신용권", 92)
         );
 
         double avg = list.stream()

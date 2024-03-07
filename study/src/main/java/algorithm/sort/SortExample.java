@@ -15,6 +15,8 @@ public class SortExample {
          */
 
         List<Integer> list = new Random().ints(10, 1, 10).collect(ArrayList::new, List::add, List::addAll);
-        new SelectionSort<Integer>().sort(list);
+        Data<Integer> data = new Data<>();
+        data.setData(list);
+        data.sort(new SelectionSortable<>());
     }
 }
