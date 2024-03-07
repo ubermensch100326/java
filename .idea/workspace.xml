@@ -38,6 +38,7 @@
   "keyToString": {
     "Application.ContructorReferenceExample.executor": "Run",
     "Application.FilterExample.executor": "Run",
+    "Application.InterruptedExample.executor": "Run",
     "Application.LambdaExample.executor": "Run",
     "Application.MethodReferenceExample.executor": "Run",
     "Application.SortExample.executor": "Run",
@@ -59,7 +60,7 @@
       <recent name="main.java.ch14.ex02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedExample">
+  <component name="RunManager" selected="Application.InterruptedExample">
     <configuration name="FilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex03.FilterExample" />
       <module name="java" />
@@ -73,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithm.sort.SortExample" />
+    <configuration name="InterruptedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ch14.ex03.InterruptedExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.algorithm.sort.*" />
+          <option name="PATTERN" value="main.java.ch14.ex03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExplanation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex03.StreamExplanation" />
+    <configuration name="SortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithm.sort.SortExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ch17.ex03.*" />
+          <option name="PATTERN" value="main.java.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterruptedExample" />
         <item itemvalue="Application.SynchronizedExample" />
         <item itemvalue="Application.StreamFlatMapExample" />
         <item itemvalue="Application.SortExample" />
         <item itemvalue="Application.FilterExample" />
-        <item itemvalue="Application.StreamExplanation" />
       </list>
     </recent_temporary>
   </component>
