@@ -44,6 +44,7 @@
     "Application.StreamExplanation.executor": "Run",
     "Application.StreamFlatMapExample.executor": "Run",
     "Application.StreamPipeLineExample.executor": "Run",
+    "Application.SynchronizedExample.executor": "Run",
     "Application.main.java.ch16.ex03.LambdaExample (1).executor": "Run",
     "Application.main.java.ch16.ex03.LambdaExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -53,7 +54,12 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StreamFlatMapExample">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.java.ch14.ex02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SynchronizedExample">
     <configuration name="FilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex03.FilterExample" />
       <module name="java" />
@@ -106,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamPipeLineExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex02.StreamPipeLineExample" />
+    <configuration name="SynchronizedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ch14.ex02.SynchronizedExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ch17.ex02.*" />
+          <option name="PATTERN" value="main.java.ch14.ex02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedExample" />
         <item itemvalue="Application.StreamFlatMapExample" />
         <item itemvalue="Application.SortExample" />
         <item itemvalue="Application.FilterExample" />
         <item itemvalue="Application.StreamExplanation" />
-        <item itemvalue="Application.StreamPipeLineExample" />
       </list>
     </recent_temporary>
   </component>
