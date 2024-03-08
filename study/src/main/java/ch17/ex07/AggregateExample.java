@@ -7,7 +7,7 @@ public class AggregateExample {
     /*
      * 스트림이 제공하는 기본 집계 메서드 중
      * Optional 객체를 제공하는 메서드
-     * findFirst(), max(), min(), average()
+     * findFirst(), max(), min(), average() 등
      *
      * Optional 관련 클래스는 단순히 집계값만 저장하는 것이 아니라
      * 집계값이 없을 때 대신 사용할 기본값을 지정하거나 집계값을 처리하는 Consumer를 지정할 수 있음
@@ -58,6 +58,10 @@ public class AggregateExample {
         System.out.println("최소값: " + min);
 
         // reduce() 메소드를 이용한 합계
+        // 스트림은 다양한 집계 결과물을 만들 수 있도록 reduce() 메서드를 제공함
+        // reduce() 메서드는 두 개의 요소를 매개값으로 받아 연산을 수행하고 그 결과를 다시 스트림의 요소로 사용함
+        // 매개변수 1: 초기값 (스트림에 요소가 없더라도 디폴트 값을 반환함)
+        // 매개변수 2: BinaryOperator<T> 인터페이스를 구현한 람다식
         int sum2 = Arrays.stream(arr)
                 .filter(a -> a % 2 == 0)
                 .reduce(0, (a, b) -> a + b);
