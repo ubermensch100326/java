@@ -42,6 +42,9 @@
     "Application.InterruptedExample.executor": "Run",
     "Application.LambdaExample.executor": "Run",
     "Application.LoopingExample.executor": "Run",
+    "Application.MatchingExample (1).executor": "Run",
+    "Application.MatchingExample (2).executor": "Run",
+    "Application.MatchingExample.executor": "Run",
     "Application.MethodReferenceExample.executor": "Run",
     "Application.SortExample.executor": "Run",
     "Application.StreamExplanation.executor": "Run",
@@ -62,26 +65,13 @@
       <recent name="main.java.ch14.ex02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoopingExample">
+  <component name="RunManager" selected="Application.MatchingExample">
     <configuration name="DaemonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ch14.ex04.DaemonExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.ch14.ex04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterruptedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ch14.ex03.InterruptedExample" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.ch14.ex03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamFlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex04.StreamFlatMapExample" />
+    <configuration name="MatchingExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex06.MatchingExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ch17.ex04.*" />
+          <option name="PATTERN" value="main.java.ch17.ex06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ch14.ex02.SynchronizedExample" />
+    <configuration name="MatchingExample (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex06.MatchingExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ch14.ex02.*" />
+          <option name="PATTERN" value="main.java.ch17.ex06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex06.MatchingExample" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ch17.ex06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatchingExample" />
+        <item itemvalue="Application.MatchingExample (2)" />
+        <item itemvalue="Application.MatchingExample (1)" />
         <item itemvalue="Application.LoopingExample" />
         <item itemvalue="Application.DaemonExample" />
-        <item itemvalue="Application.InterruptedExample" />
-        <item itemvalue="Application.SynchronizedExample" />
-        <item itemvalue="Application.StreamFlatMapExample" />
       </list>
     </recent_temporary>
   </component>
