@@ -41,6 +41,7 @@
     "Application.FilterExample.executor": "Run",
     "Application.InterruptedExample.executor": "Run",
     "Application.LambdaExample.executor": "Run",
+    "Application.LoopingExample.executor": "Run",
     "Application.MethodReferenceExample.executor": "Run",
     "Application.SortExample.executor": "Run",
     "Application.StreamExplanation.executor": "Run",
@@ -61,7 +62,7 @@
       <recent name="main.java.ch14.ex02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DaemonExample">
+  <component name="RunManager" selected="Application.LoopingExample">
     <configuration name="DaemonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ch14.ex04.DaemonExample" />
       <module name="java" />
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithm.sort.SortExample" />
+    <configuration name="LoopingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ch17.ex05.LoopingExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.algorithm.sort.*" />
+          <option name="PATTERN" value="main.java.ch17.ex05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoopingExample" />
         <item itemvalue="Application.DaemonExample" />
         <item itemvalue="Application.InterruptedExample" />
         <item itemvalue="Application.SynchronizedExample" />
         <item itemvalue="Application.StreamFlatMapExample" />
-        <item itemvalue="Application.SortExample" />
       </list>
     </recent_temporary>
   </component>
