@@ -38,6 +38,8 @@ public class WriteExample {
         // OutputStream은 AutoCloseable 인터페이스를 구현하고 있으므로 try-with-resources문을 사용할 수 있음
         // try-with-resources문을 사용하면 close()를 호출하지 않아도 자동으로 close()가 호출됨
         // close()를 호출하면 자동으로 close() 이전에 flush()가 호출됨
+        // 두 번째 매개값을 true로 주면 파일의 끝에 추가됨 (기존 파일에 추가됨)
+        // 두 번째 매개값을 안 주면 기존 파일에 덮어씀
         try (OutputStream os2 = new FileOutputStream("C:/Temp/test2.db", true)) {
             byte a = 10;
             byte b = 20;
@@ -46,6 +48,22 @@ public class WriteExample {
             os2.write(a);
             os2.write(b);
             os2.write(c);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // write()에 배열을 매개값으로 넣어주는 경우 배열의 모든 내용을 출력함
+        try (OutputStream os3 = new FileOutputStream("C:/Temp/test3.db")) {
+            byte[] array = {10, 20, 30, 40, 50};
+            os3.write(array);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // write()에 배열, 시작 인덱스, 개수를 매개값으로 넣어주는 경우 시작 인덱스부터 (포함) 개수만큼 출력함
+        try (OutputStream os4 = new FileOutputStream("C:/Temp/test4.db")) {
+            byte[] array = {10, 20, 30, 40, 50};
+            os4.write(array, 1, 3);
         } catch (Exception e) {
             e.printStackTrace();
         }
