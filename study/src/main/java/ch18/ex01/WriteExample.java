@@ -13,6 +13,8 @@ public class WriteExample {
             // write()를 호출하면 1바이트만 출력됨
             // 10진수로 10은 00001010, 20은 00010100, 30은 00011110
             // 4바이트 중 가장 오른쪽 1바이트만 출력됨
+            // 기본적으로 InputStream, OutpuStream은 byte 단위로 입출력함
+            // 특정 타입을 다루고 싶다면 보조 스트림을 사용해야 함
             byte a = 10;
             byte b = 20;
             byte c = 30;
