@@ -1,4 +1,4 @@
-package main.java.ch18;
+package main.java.ch18.ex04;
 
 import java.io.FileOutputStream;
 import java.io.OutputStream;
