@@ -38,7 +38,7 @@ public class WriteExample {
         // OutputStream은 AutoCloseable 인터페이스를 구현하고 있으므로 try-with-resources문을 사용할 수 있음
         // try-with-resources문을 사용하면 close()를 호출하지 않아도 자동으로 close()가 호출됨
         // close()를 호출하면 자동으로 close() 이전에 flush()가 호출됨
-        try (OutputStream os2 = new FileOutputStream("C:/Temp/test2.db")) {
+        try (OutputStream os2 = new FileOutputStream("C:/Temp/test2.db", true)) {
             byte a = 10;
             byte b = 20;
             byte c = 30;
