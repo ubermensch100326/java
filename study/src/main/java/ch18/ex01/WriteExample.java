@@ -61,6 +61,7 @@ public class WriteExample {
         }
 
         // write()에 배열, 시작 인덱스, 개수를 매개값으로 넣어주는 경우 시작 인덱스부터 (포함) 개수만큼 출력함
+        // while문으로 돌릴 경우 매번 시작 인덱스에서부터 개수만큼 값이 바뀌고 그만큼만 출력시킴
         try (OutputStream os4 = new FileOutputStream("C:/Temp/test4.db")) {
             byte[] array = {10, 20, 30, 40, 50};
             os4.write(array, 1, 3);
