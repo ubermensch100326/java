@@ -1,4 +1,4 @@
-package main.java.ch19;
+package main.java.ch19.ex01;
 
 import java.net.InetAddress;
 
